@@ -53,7 +53,7 @@ public class FightFrameListener implements ActionListener {
                 playerBlocksEnemyHit();
             }
 
-            if (enemyHealth <= 90) {
+            if (enemyHealth <= 0) {
                 playerWin();
             }
 
